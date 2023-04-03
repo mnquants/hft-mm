@@ -1,4 +1,4 @@
-# High-frequency trading in a limit order book by Avellanda and Stoikov
+# High-frequency trading in a limit order book by Avellaneda and Stoikov
 https://math.nyu.edu/~avellane/HighFrequencyTrading.pdf
 
 ## Introduction
