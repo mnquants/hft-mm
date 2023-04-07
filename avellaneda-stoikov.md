@@ -22,9 +22,7 @@ In summary, the reservation price is just the mid-price subtracted by the amount
 ### Eq 30, bid-ask spread formula:
 $$\delta^a+\delta^b=\gamma\sigma^2(T-t)+\frac{2}{\gamma}\ln(1+\frac{\gamma}{\kappa})$$
 
-The bid-ask spread can also be broken down into two parts: $\gamma\sigma^2(T-t)$, which we recognize from the reservation price equation, and $\frac{2}{\gamma}\ln(1+\frac{\gamma}{\kappa})$, an expression that introduces a new variable, $\kappa$.
-
-As you may recall from the prior explanation, $\gamma\sigma^2(T-t)$ is a measure of how risky a unit of inventory is given the dealer's risk tolerance ($\gamma$) and time until market close ($T-t$). This piece makes sense because market makers want to increase their spread depending on volatility.
+The bid-ask spread can also be broken down into two parts: $\gamma\sigma^2(T-t)$, which we recognize from the reservation price equation, and $\frac{2}{\gamma}\ln(1+\frac{\gamma}{\kappa})$, an expression that introduces a new variable, $\kappa$. As you may recall from the prior explanation, $\gamma\sigma^2(T-t)$ is a measure of how risky a unit of inventory is given the dealer's risk tolerance. This piece makes sense because market makers want to widen their spread in response to volatility. Furthermore, the spread is also a decreasing function of time. At the end of the day, the market maker wants to be flat and not hold any risk overnight, so the spread must narrow in order to liquidate before market close.
 
 The second piece in the equation, $\frac{2}{\gamma}\ln(1+\frac{\gamma}{\kappa})$, is less intuitive. Let's first understand $\kappa$, the arrival rate of orders.
 
